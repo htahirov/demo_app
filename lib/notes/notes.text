@@ -1,0 +1,22 @@
+body: PageView(
+      children: items.map((item) => OnboardItem(onboardItem: item)).toList(),
+    ),
+
+
+// Dot Indocator
+Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              for (int i = 0; i < items.length; i++)
+                Container(
+                  height: 12,
+                  width: 12,
+                  margin: const EdgeInsets.symmetric(horizontal: 2),
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color:
+                        selectedIndex == i ? AppColors.red : Colors.grey[300],
+                  ),
+                ),
+            ],
+          ),

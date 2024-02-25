@@ -1,6 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:gloabal_app/constants/app_assets.dart';
+import 'package:gloabal_app/constants/app_texts.dart';
 
 import 'onboard_page.dart';
 
@@ -31,11 +33,11 @@ class _SplashPageState extends State<SplashPage> {
       appBar: AppBar(
         backgroundColor: const Color(0xff3A906D),
         foregroundColor: Colors.white,
-        title: const Text('Splash Page'),
+        title: const Text(AppTexts.splashPage),
       ),
       body: FadeInLeftBig(
         child: Center(
-          child: SvgPicture.asset('assets/svg/logo.svg'),
+          child: SvgPicture.asset(AppAssets.logo),
         ),
       ),
     );

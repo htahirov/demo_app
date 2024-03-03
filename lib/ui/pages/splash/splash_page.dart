@@ -4,7 +4,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:gloabal_app/constants/app_assets.dart';
 import 'package:gloabal_app/constants/app_texts.dart';
 
-import 'onboard_page.dart';
+import '../onboard/onboard_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

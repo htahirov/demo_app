@@ -2,9 +2,9 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../constants/app_assets.dart';
-import '../extensions/num_extensions.dart';
-import '../models/onboard_model.dart';
+import '../../../../constants/app_assets.dart';
+import '../../../../extensions/num_extensions.dart';
+import '../../../../models/onboard_model.dart';
 
 class OnboardItem extends StatelessWidget {
   const OnboardItem({
